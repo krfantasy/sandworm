@@ -1,0 +1,10 @@
+(menhir
+ (modules parser)
+ (infer true))
+
+(ocamllex lexer)
+
+(library
+ (public_name sandworm)
+ (name sandworm)
+ (modules ast lexer netlist parser token))

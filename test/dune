@@ -1,0 +1,7 @@
+(test
+ (name test_sandworm)
+ (libraries sandworm alcotest))
+
+(test
+ (name test_parser)
+ (libraries sandworm alcotest))
