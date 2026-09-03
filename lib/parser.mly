@@ -155,7 +155,8 @@ statement:
 (* Device lines: name followed by positional/keyword arguments *)
 device_line:
   | name = ID; args = device_args
-    { { name; args } }
+    { { name; args; loc = Some ($startpos.Lexing.pos_lnum,
+                                $startpos.Lexing.pos_cnum - $startpos.Lexing.pos_bol) } }
 
 device_args:
   | (* empty *)

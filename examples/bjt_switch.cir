@@ -1,0 +1,9 @@
+NPN switch: base drive sweep
+VCC c 0 DC 5
+VIN b 0 DC 0
+RC c c1 1k
+RB b b1 10k
+Q1 c1 b1 0 QN
+.MODEL QN NPN(IS=1E-16 BF=100)
+.DC VIN 0 5 0.5
+.END

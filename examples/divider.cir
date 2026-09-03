@@ -1,0 +1,7 @@
+Resistive divider: OP + DC sweep
+V1 1 0 DC 5
+R1 1 2 1k
+R2 2 0 2k
+.OP
+.DC V1 0 5 1
+.END

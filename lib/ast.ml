@@ -28,6 +28,7 @@ type device_arg =
 type device = {
   name : string;
   args : device_arg list;
+  loc : (int * int) option;  (* line, column *)
 }
 
 (* Dot commands *)

@@ -6,5 +6,4 @@
 
 (library
  (public_name sandworm)
- (name sandworm)
- (modules ast lexer netlist parser token))
+ (name sandworm))

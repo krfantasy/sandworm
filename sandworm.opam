@@ -12,7 +12,7 @@ bug-reports: "https://github.com/krfantasy/sandworm/issues"
 depends: [
   "dune" {>= "3.22"}
   "ocaml"
-  "menhir"
+  "menhir" {>= "20180523"}
   "alcotest" {with-test}
   "odoc" {with-doc}
 ]

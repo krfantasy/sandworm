@@ -1,0 +1,8 @@
+NMOS inverter transfer curve
+VDD dd 0 DC 5
+VIN g 0 DC 0
+M1 out g 0 0 NMOD W=10u L=1u
+RLOAD dd out 4.7k
+.MODEL NMOD NMOS(VTO=1 KP=2E-5 LAMBDA=0.02)
+.DC VIN 0 5 0.25
+.END

@@ -5,3 +5,11 @@
 (test
  (name test_parser)
  (libraries sandworm alcotest))
+
+(test
+ (name test_device)
+ (libraries sandworm alcotest))
+
+(test
+ (name test_sim)
+ (libraries sandworm alcotest))

@@ -1,0 +1,6 @@
+Diode IV curve via DC sweep
+V1 1 0 DC 0
+D1 1 0 DMOD
+.MODEL DMOD D(IS=1E-14)
+.DC V1 0 0.8 0.05
+.END

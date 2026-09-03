@@ -1,0 +1,6 @@
+RC lowpass: AC sweep (corner ~159.15 Hz)
+V1 1 0 DC 0 AC 1
+R1 1 2 1k
+C1 2 0 1u
+.AC DEC 10 1 1MEG
+.END
